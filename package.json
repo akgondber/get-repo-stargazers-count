@@ -1,0 +1,42 @@
+{
+  "name": "get-repo-stargazers-count",
+  "version": "1.0.0",
+  "description": "Extract stargazers count for specified repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "engines": {
+    "node": ">= 4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akgondber/get-repo-stargazers-count.git"
+  },
+  "keywords": [
+    "repository",
+    "github",
+    "stargazers",
+    "count",
+    "npm",
+    "package",
+    "likes"
+  ],
+  "author": "Rushan Alyautdinov <akgondber@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akgondber/get-repo-stargazers-count/issues"
+  },
+  "homepage": "https://github.com/akgondber/get-repo-stargazers-count#readme",
+  "dependencies": {
+    "got": "^6.7.1"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "sinon": "^2.1.0",
+    "xo": "^0.18.1"
+  },
+  "xo": {
+    "space": true
+  }
+}
