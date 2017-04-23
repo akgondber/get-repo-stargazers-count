@@ -1,4 +1,5 @@
 ## get-repo-stargazers-count
+![get-repo-stargazers-count.svg](https://travis-ci.org/akgondber/get-repo-stargazers-count.svg?branch=master)
 
 Extract stargazers count for specified repository written in javascript.
 
@@ -22,6 +23,7 @@ repoStarsCount.forGithub('gulp')
       .catch(err => {
         // handle error
       })
+```
 
 ### License
 
